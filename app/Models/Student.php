@@ -25,7 +25,6 @@ class Student extends Model
         return $this->belongsTo(Classs::class);
     }
 
-
     // One student has many attendance
     public function attendances()
     {
